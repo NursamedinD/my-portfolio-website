@@ -7,3 +7,27 @@
   word-spacing: 30px;
   padding: 10px;
 }
+*{
+  box-sizing: border-box;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-text-box{
+  flex: 70%;
+  padding: 20px;
+}
+.profile{
+  flex: 70%;
+  padding: 20px;
+}
+.profile img{
+  width: 120px;
+  display: block;
+  margin-left: 0;
+  margin: 0;
+}
+.profile h1{
+  text-align: center;
+}
